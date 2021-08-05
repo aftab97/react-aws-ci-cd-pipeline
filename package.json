@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist & parcel build src/index.html",
+    "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
@@ -35,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
   }
 }

@@ -24,7 +24,7 @@ phases:
 artifacts:
   type: zip
   paths:
-    - "./dist/**/*"
+    - "./build/**/*"
 
 cache:
   paths:
